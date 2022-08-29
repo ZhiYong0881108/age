@@ -1,6 +1,6 @@
 driving = input('你有沒有開過車?')
 if driving != '有' and driving != '沒有':
-    print('只能輸入 有/沒有')
+    print('只能輸入 有/沒有') 
     raise SystemExit
     
 age = int(input('你的年齡?'))
